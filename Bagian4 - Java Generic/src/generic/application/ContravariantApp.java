@@ -4,7 +4,7 @@ import generic.MyData;
 
 public class ContravariantApp {
     public static void main(String[] args) {
-        MyData <Object> objectMyData = new MyData<Object>("Nden");
+        MyData<Object> objectMyData = new MyData<Object>("Nden");
         objectMyData.setData(1000);
 
         processData(objectMyData);
