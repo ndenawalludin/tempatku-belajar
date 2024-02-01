@@ -10,7 +10,8 @@ public class MultipleConstraintApp {
         
         // Data<Manager> managerData = new Data<>(new Manager()); ini akan error karena "Bound mismatch" yaitu class manager tidak implement CanSayHello
 
-        Data<VicePresident> vicePresidentData = new Data<>(new VicePresident("Nden"));
+        VicePresident president = new VicePresident();
+        president.sayHello("Nden");
     }
 
     public static interface CanSayHello {
